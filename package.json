@@ -18,5 +18,9 @@
   "homepage": "https://github.com/kMutagene/aoc2021#readme",
   "devDependencies": {
     "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "@types/node": "^16.11.11",
+    "fs": "^0.0.1-security"
   }
 }
