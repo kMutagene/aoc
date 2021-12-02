@@ -348,3 +348,6 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+# Show everyone that this is a typescript project, so it will look very good good because blue > yellow
+*.js
