@@ -54,33 +54,6 @@ const testData =
             return ((vl.C1.X === vl.C2.X) || (vl.C1.Y === vl.C2.Y))
         })
 
-const ccw = (A:Coordinate, B:Coordinate, C:Coordinate) => {
-    return (C.Y-A.Y) * (B.X-A.X) > (B.Y-A.Y) * (C.X-A.X)
-}
-
-const intersect = (vl1: VentLine, vl2: VentLine) => {
-    let A = vl1.C1
-    let B = vl1.C2
-    let C = vl2.C1
-    let D = vl2.C2
-    return ccw(A,C,D) != ccw(B,C,D) && ccw(A,B,C) != ccw(A,B,D)
-}
-
-const correlationMatrix = (input:VentLine []) => {
-    let res = new Array<boolean []>(input.length)
-    for (let i=0; i<input.length; i++){
-        res[i] = new Array<boolean>(input.length)
-    }
-    input
-    .map((ve1,outer) => {
-        input
-        .map((ve2,inner) => {
-            res[outer][inner] = intersect(ve1,ve2)
-        })
-    })
-    return res
-}
-
 const getLineFormula = (vl:VentLine) => {
     let m = (vl.C2.Y - vl.C1.Y)/(vl.C2.X - vl.C1.X)
     let b = ((m * vl.C1.X) - vl.C1.Y) * -1
