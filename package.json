@@ -22,6 +22,9 @@
   "dependencies": {
     "@types/node": "^16.11.11",
     "fs": "^0.0.1-security",
+    "graphology": "^0.23.2",
+    "graphology-simple-path": "^0.1.2",
+    "graphology-traversal": "^0.3.0",
     "plotly": "^1.0.6",
     "stack-typescript": "^1.0.4"
   }
