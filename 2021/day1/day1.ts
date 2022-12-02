@@ -1,7 +1,7 @@
 import * as fs from 'fs';
 
 const data = 
-    fs.readFileSync('C:/Users/schne/source/repos/kMutagene/aoc2021/day1/input.txt', 'utf8')
+    fs.readFileSync('C:/Users/schne/source/repos/kMutagene/aoc/2021/day1/input.txt', 'utf8')
     .split("\n")
     .map (x => parseInt(x))
 
