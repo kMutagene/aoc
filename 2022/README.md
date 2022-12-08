@@ -11,3 +11,15 @@ in python/conda, you use environments to manage packages etc. The steps to creat
 To re-use this env on another computer:
 - save it as a `requirements.txt` file via `conda list -e > requirements.txt`
 - load it on another computer via `conda create --name aoc2022 --file requirements.txt`
+
+## Some notes on used packages and approaches
+
+### day07 - No Space Left On Device
+
+To create the directory tree structure, [treelib](https://treelib.readthedocs.io/en/latest/) was used as a simple implementation of a tree structure (without all the numpy/scipy overhead). Subtrees for the folders where then extracted and the file sizes contained where subsequently aggregated.
+
+### day08 - Treetop Tree House
+
+used [plotly](https://plotly.com/python/) for visualizing the height map of the trees.
+
+for easier iteration regarding visualization, the puzzle was completed in a notebook instead of a `.py` script.
