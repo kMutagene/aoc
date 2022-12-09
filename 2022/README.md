@@ -23,3 +23,9 @@ To create the directory tree structure, [treelib](https://treelib.readthedocs.io
 used [plotly](https://plotly.com/python/) for visualizing the height map of the trees.
 
 for easier iteration regarding visualization, the puzzle was completed in a notebook instead of a `.py` script.
+
+### day09 - Rope Bridge
+
+used [plotly](https://plotly.com/python/) for visualizing the movement of the knots. Also played around with animation (turns out it takes forever for large amount of frames)
+
+for easier iteration regarding visualization, the puzzle was completed in a notebook instead of a `.py` script.
