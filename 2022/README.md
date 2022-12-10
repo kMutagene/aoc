@@ -29,3 +29,9 @@ for easier iteration regarding visualization, the puzzle was completed in a note
 used [plotly](https://plotly.com/python/) for visualizing the movement of the knots. Also played around with animation (turns out it takes forever for large amount of frames)
 
 for easier iteration regarding visualization, the puzzle was completed in a notebook instead of a `.py` script.
+
+### day10 - Cathode-Ray Tube
+
+used [plotly](https://plotly.com/python/) for visualizing the pixels drawn onto the crt screen.
+
+for easier iteration regarding visualization, the puzzle was completed in a notebook instead of a `.py` script.
