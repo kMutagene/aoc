@@ -39,3 +39,7 @@ for easier iteration regarding visualization, the puzzle was completed in a note
 ## day11 - Monkey in the Middle
 
 part 2 was very tough and needed a mathematical trick: As the checks of the monkeys use modulo arithmetic, one can use the numbers for division checks used by all monkeys, multiply them, and calculate the modulo of the items with that number to keep the numbers from integer overflows. I admit that i looked this up on the internetz.
+
+## day12 - Hill Climbing Algorithm
+
+Used [networkx](https://networkx.org/) to create graphs and calculate shortest path lengths

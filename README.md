@@ -4,7 +4,7 @@ This repo contains my solutions for [various advent of code challenges](https://
 
 | Year | Language | Progress |
 |---|---|---|
-|2022|Python|22/50|
+|2022|Python|24/50|
 |2021|Typescript|28/50|
 |2020|||
 |2019|||
